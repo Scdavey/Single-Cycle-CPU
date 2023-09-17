@@ -1,0 +1,42 @@
+`timescale 1 ps/ 1 ps
+module cpu_tb();
+
+//instruction_memory inputs/outputs
+reg [7:0]im_in_1; //First byte of instruction
+reg [7:0]im_in_2; //Second byte of instruction
+wire [3:0]op_out; //Op code bits
+//wire [1:0]ra_out; //First register ref bits
+//wire [1:0]rb_out; //second register ref bits
+//wire [7:0]imm_out; //immediate bits
+
+cpu i1 (
+	.im_in_1(im_in_1),
+	.im_in_2(im_in_2),
+	.op_out(op_out)
+);
+
+
+//controller inputs/outputs
+wire [3:0]test;
+//wire [3:0]alu_sel; //ALU control bits
+//wire [0]reg_wb; //Register wb control bit
+
+controller i2 (
+	.test(test)
+);
+
+initial begin 
+                                                 
+ im_in_1 = 8'b00000000;
+ im_in_2 = 8'b00000000;
+
+ #100
+
+ im_in_1 = 8'b11010011; 
+ im_in_2 = 8'b10001101;
+
+ #100                                             
+$display("Running testbench");                       
+end                                                                                                   
+endmodule
+

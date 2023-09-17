@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim
+vcontroller
+Z1 !s110 1668721099
+!i10b 1
+!s100 iOYUgD;m6hfJTbCWSG5bD1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICQ<?l?AhGIFzNR7JfiXJ13
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1668721037
+Z5 8C:/Users/shane/Desktop/Quartus Prime/cpu/cpu.v
+Z6 FC:/Users/shane/Desktop/Quartus Prime/cpu/cpu.v
+!i122 0
+L0 22 65
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1668721099.000000
+Z9 !s107 C:/Users/shane/Desktop/Quartus Prime/cpu/cpu.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/shane/Desktop/Quartus Prime/cpu|C:/Users/shane/Desktop/Quartus Prime/cpu/cpu.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work {+incdir+C:/Users/shane/Desktop/Quartus Prime/cpu}
+Z13 tCvgOpt 0
+vcpu
+R1
+!i10b 1
+!s100 J[0Qg]9@GQ=O=1LgVfNc00
+R2
+I46WO8Qm9:B;:HQEgXBVOA2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vcpu_tb
+R1
+!i10b 1
+!s100 OM;D^n1nGIGQi[nk:1CPd2
+R2
+In@Ln2G`1FTzHGFaRheSZo1
+R3
+R0
+w1668721007
+8C:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim/cpu.vt
+FC:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim/cpu.vt
+!i122 1
+L0 2 40
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim/cpu.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim|C:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim/cpu.vt|
+!i113 1
+R11
+!s92 -vlog01compat -work work {+incdir+C:/Users/shane/Desktop/Quartus Prime/cpu/simulation/modelsim}
+R13
